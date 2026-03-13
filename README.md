@@ -16,7 +16,7 @@ f * d = 542.6395291455866 GHz*A
 
 Derived from first principles: `hbar / (2 * m_H2O * r_OO)` where `m_H2O = 2.9915e-26 kg`, `r_OO = 2.8 A`.
 
-**Zero ML parameters. Zero training data. Zero fitted parameters.**
+
 
 All predictions emerge from this constant and the quarter-wave law: `f = c_medium / (4 * d)`.
 
