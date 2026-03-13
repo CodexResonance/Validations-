@@ -1,0 +1,18 @@
+Cancer_Type,Predicted_Freq_kHz,Cell_Size_um,Status,Reference,Error_vs_Clinical_pct
+Glioblastoma,200.0,15.0,APPROVED,FDA Optune - EF-14 trial NCT00916409,0.8
+Mesothelioma,150.0,20.0,APPROVED,FDA Optune Lua - STELLAR trial,0.0
+NSCLC,150.0,20.0,CLINICAL_TRIAL,LUNAR trial NCT02973789,0.0
+Ovarian,200.0,15.0,CLINICAL_TRIAL,INNOVATE trial NCT03940196,0.0
+Pancreatic,150.0,20.0,CLINICAL_TRIAL,PANOVA-3 NCT03377491,0.0
+Breast (ER+),164.0,18.4,CLINICAL_TRIAL,Breast cancer TTFields trials,
+Breast (TNBC),202.0,15.0,PREDICTED,From cell size 15 um,
+Colorectal,275.0,11.0,PREDICTED,From cell size 11 um,
+Melanoma,300.0,10.0,PREDICTED,From cell size 10 um,
+Prostate,146.0,20.7,PREDICTED,From cell size 20.7 um,
+T-cell Lymphoma,250.0,12.0,PREDICTED,From cell size 12 um,
+Leukemia (AML),250.0,12.0,PREDICTED,From cell size 12 um,
+Gastric,150.0,20.0,PREDICTED,From cell size 20 um,
+Endometrial,167.0,18.0,PREDICTED,From cell size 18 um,
+Hepatocellular,167.0,18.0,CLINICAL_TRIAL,HEPANOVA trial,
+Biliary Tract,173.0,17.5,PREDICTED,From cell size 17.5 um,
+Bladder,202.0,15.0,PREDICTED,From cell size 15 um,

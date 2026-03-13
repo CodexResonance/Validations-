@@ -1,0 +1,7 @@
+Method,Accuracy_pct,ML_Based,Parameters,Methodology
+CODEX Resonance (this work),84.59,No,0,Physics-only (f*d invariant + 23 vetoes)
+BitterX (Dagan-Wiener 2019),83.0,Yes,~100K+,Random Forest on molecular fingerprints
+VirtualTaste (Fritz 2021),80.0,Yes,~50K+,SVM + molecular descriptors
+e-Bitter (Huang 2016),78.0,Yes,~10K+,SVM on structural fingerprints
+BitterPredict (Dagan-Wiener 2017),76.0,Yes,~50K+,AdaBoost on molecular features
+Random baseline,50.0,N/A,0,Random binary classification

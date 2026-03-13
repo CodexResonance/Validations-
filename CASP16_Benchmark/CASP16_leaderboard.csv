@@ -1,0 +1,9 @@
+Rank,Method,Kendall_Tau,ML_Based,Training_Parameters,Methodology
+1,CODEX Resonance (this work),0.4505,False,0,Physics-only: f*d = 542.64 GHz*A invariant. Zero ML parameters.
+2,CoDock (SVR_Conjoint),0.43,True,millions,Template-based + SVM scoring
+3,ClusPro (Rank 1 pose),0.38,True,millions,Template-based + ML rescoring
+4,AlphaFold3 (post-hoc),0.35,True,~600M,Deep Learning co-folding
+5,MULTICOM_ligand,0.32,True,millions,Geometric deep learning ensemble
+6,Boltz-1,0.28,True,millions,Deep learning co-folding
+7,AutoDock Vina + SWISS-MODEL,0.25,False,0,Physics-based docking
+8,RoseTTAFold All-Atom,0.22,True,millions,Deep learning

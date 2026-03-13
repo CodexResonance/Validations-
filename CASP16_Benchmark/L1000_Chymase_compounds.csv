@@ -1,0 +1,18 @@
+Compound_ID,SMILES,IC50_uM,pIC50,Target,PDB
+L1001,Fc4cc1c(n(c(c1CN(C)C(=O)OCC)C(=O)O)Cc2c3c(ccc2)cccc3)cc4,0.001,9.000,Human Chymase (CMA1),5YJP
+L1002,[nH]1c5c(c(c1C(c2ccccc2)C3=C(C(CC3=O)c4ccccc4)O)CCNC(=O)C)ccc(c5)CC,0.0197,7.706,Human Chymase (CMA1),5YJP
+L1003,FC(F)(F)c1c(ccc(c1)-c2ccncc2)NS(=O)(=O)c3sc4c(c3C)cc(cc4)F,0.027,7.569,Human Chymase (CMA1),5YJP
+L1004,Fc4cc1c([nH]c(c1C(C)C)C(c2ccccc2)C3=C(C(NC3=O)C(C)C)O)cc4,0.0156,7.807,Human Chymase (CMA1),5YJP
+L1005,Fc4cc1c(n(c(c1CNC(=O)OC)C(=O)O)Cc2c3c(ccc2)cccc3)cc4,0.0244,7.613,Human Chymase (CMA1),5YJP
+L1006,[nH]1c5c(c(c1C(c2ccccc2)C3=C(C(C3=O)(C)c4ccc(cc4)C)O)CC(NC(=O)C)(C)C)ccc(c5)C,0.00873,8.059,Human Chymase (CMA1),5YJP
+L1007,OC1=C(C(=O)C1(C)c2ccccc2)C(c3cc4c(cc3)cccc4)c5ccccc5,0.228,6.642,Human Chymase (CMA1),5YJP
+L1008,s1c5c(c(c1C(c2ccccc2)C3=C(C(C3=O)(C)c4ccccc4)O)C)cc(cc5)C,0.4,6.398,Human Chymase (CMA1),5YJP
+L1009,Fc5cc1c([nH]c(c1C)[C@H](c2ccccc2)C3=C([C@H](OC3=O)Cc4ccccc4)O)cc5,0.00529,8.277,Human Chymase (CMA1),5YJP
+L1010,Fc1cc2c(cc1)cccc2Cn3c4c(cc3C(=O)O)cccc4,0.01966,7.706,Human Chymase (CMA1),5YJP
+L1011,Fc4cc1c(n(c(c1CC(=O)N(C)C)C(=O)O)Cc2c3c(ccc2)cccc3)cc4,0.0409,7.388,Human Chymase (CMA1),5YJP
+L1012,Fc3cc1c(sc(c1C)S(=O)(=O)Nc2c(cc(cc2)C(=O)OC)S(=O)(=O)C)cc3,0.02424,7.615,Human Chymase (CMA1),5YJP
+L1013,n1(c4c(c(c1C(=O)O)Cc2c3c(ccc2)cccc3)cccc4)CCOC,0.0324,7.489,Human Chymase (CMA1),5YJP
+L1014,n1(c2c(cc1C(=O)O)cccc2)Cc3c4c(ccc3)cccc4C,0.0387,7.412,Human Chymase (CMA1),5YJP
+L1015,Fc4cc1c(sc(c1C)S(=O)(=O)Nc2c(cc(cc2)-c3ccncc3)S(=O)(=O)C)cc4,0.00456,8.341,Human Chymase (CMA1),5YJP
+L1016,Fc4cc1c(scc1Cn2c3c(c(c2C(=O)O)CC(=O)N(C)C)cccc3)cc4,0.01431,7.844,Human Chymase (CMA1),5YJP
+L1017,Fc4cc1c(n(c(c1CNS(=O)(=O)C)C(=O)O)Cc2c3c(ccc2)cccc3)cc4,0.01214,7.916,Human Chymase (CMA1),5YJP
