@@ -1,0 +1,1005 @@
+{
+  "dangerous": [
+    {
+      "name": "Rofecoxib",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 4,
+      "alerts": [
+        "Reactive Triage:LETHAL",
+        "Vioxx-type:HIGH",
+        "IDILI:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Terfenadine",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 3,
+      "alerts": [
+        "Verdict:FAIL",
+        "MediCure_hERG:WARNING",
+        "hERG_Physics:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Cisapride",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 4,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL",
+        "MediCure_hERG:CRITICAL",
+        "hERG_Physics:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Astemizole",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 4,
+      "alerts": [
+        "Valvulopathy:MODERATE",
+        "Verdict:FAIL",
+        "MediCure_hERG:WARNING",
+        "hERG_Physics:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Grepafloxacin",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 1,
+      "alerts": [
+        "BIA 10-2474-type:MODERATE"
+      ],
+      "xai_notes": [
+        "hERG zwitterion rescue (LogP=2.3<3)"
+      ]
+    },
+    {
+      "name": "Dofetilide",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Tegaserod",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 3,
+      "alerts": [
+        "BIA 10-2474-type:MODERATE",
+        "Verdict:FAIL",
+        "Serotonin_Cardiotox:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Sibutramine",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 1,
+      "alerts": [
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Valdecoxib",
+      "expected": "DANGEROUS",
+      "engine": "ERROR",
+      "correct": false,
+      "error": "'type'"
+    },
+    {
+      "name": "Troglitazone",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Bromfenac",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 3,
+      "alerts": [
+        "Reactive Triage:LETHAL",
+        "IDILI:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": [
+        "hERG ghost (no pharmacophore)"
+      ]
+    },
+    {
+      "name": "Trovafloxacin",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "hERG zwitterion rescue (LogP=1.9<3)"
+      ]
+    },
+    {
+      "name": "Lumiracoxib",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Nefazodone",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 4,
+      "alerts": [
+        "BIA 10-2474-type:HIGH",
+        "Verdict:FAIL",
+        "MediCure_hERG:WARNING",
+        "hERG_Physics:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Tolcapone",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "hERG ghost (no pharmacophore)"
+      ]
+    },
+    {
+      "name": "Pemoline",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Benoxaprofen",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Ibufenac",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Cerivastatin",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Phenylpropanolamine",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "TI RESCUE: dose-managed (LogP=1.1, MW=151)"
+      ]
+    },
+    {
+      "name": "Pergolide",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 4,
+      "alerts": [
+        "Valvulopathy:MODERATE",
+        "BIA 10-2474-type:HIGH",
+        "Verdict:FAIL",
+        "Serotonin_Cardiotox:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Dexfenfluramine",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "Valvulopathy:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Fenfluramine",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "Valvulopathy:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Methysergide",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "TI RESCUE: dose-managed (LogP=1.9, MW=353)"
+      ]
+    },
+    {
+      "name": "Amineptine",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 3,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL",
+        "IonCh:hERG"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Nomifensine",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "TI RESCUE: dose-managed (LogP=2.8, MW=238)"
+      ]
+    },
+    {
+      "name": "Torcetrapib",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Muraglitazar",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 4,
+      "alerts": [
+        "BIA 10-2474-type:HIGH",
+        "IDILI:HIGH",
+        "Verdict:FAIL",
+        "hERG_Physics:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Ximelagatran",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Lorcainide",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 1,
+      "alerts": [
+        "IonCh:hERG"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Encainide",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 3,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL",
+        "Nav1.5_proarrhythmic:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Fialuridine",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "FIAU-type:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Bufexamac",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "Reactive Triage:LETHAL",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Rimonabant",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 5,
+      "alerts": [
+        "Reactive Triage:LETHAL",
+        "IDILI:HIGH",
+        "Verdict:FAIL",
+        "MediCure_hERG:WARNING",
+        "IonCh:hERG"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Rosiglitazone",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Rapacuronium",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 1,
+      "alerts": [
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Phenacetin",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Methaqualone",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "BIA 10-2474-type:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Diethylstilbestrol",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Thalidomide",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "Thalidomide-type:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Chloramphenicol",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 2,
+      "alerts": [
+        "Reactive Triage:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "BIA_10_2474",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Zimelidine_fragment",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Alosetron_approx",
+      "expected": "DANGEROUS",
+      "engine": "FLAGGED",
+      "correct": true,
+      "n_alerts": 3,
+      "alerts": [
+        "BIA 10-2474-type:HIGH",
+        "Verdict:FAIL",
+        "IonCh:hERG"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Phenformin",
+      "expected": "DANGEROUS",
+      "engine": "SAFE",
+      "correct": false,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "TI RESCUE: dose-managed (LogP=0.2, MW=205)"
+      ]
+    }
+  ],
+  "safe": [
+    {
+      "name": "Aspirin",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Metformin",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Ibuprofen",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Acetaminophen",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Amoxicillin",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "hERG zwitterion rescue (LogP=0.0<3)"
+      ]
+    },
+    {
+      "name": "Lisinopril",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Amlodipine",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "TI RESCUE: dose-managed (LogP=2.3, MW=409)"
+      ]
+    },
+    {
+      "name": "Atorvastatin",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 2,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Omeprazole",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Simvastatin",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Losartan",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 1,
+      "alerts": [
+        "hERG_Physics:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Metoprolol",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Levothyroxine",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 1,
+      "alerts": [
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Sertraline",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 1,
+      "alerts": [
+        "IonCh:hERG"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Fluoxetine",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 1,
+      "alerts": [
+        "IonCh:hERG"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Ciprofloxacin",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "hERG zwitterion rescue (LogP=1.6<3)"
+      ]
+    },
+    {
+      "name": "Montelukast",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 3,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL",
+        "hERG_Physics:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Ranitidine",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Cetirizine",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 2,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Loratadine",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 3,
+      "alerts": [
+        "IDILI:HIGH",
+        "BIA 10-2474-type:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Gabapentin",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Allopurinol",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Hydrochlorothiazide",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 3,
+      "alerts": [
+        "Reactive Triage:LETHAL",
+        "Verdict:FAIL",
+        "IonCh:Cav1.2"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Warfarin",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Clopidogrel",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Tamsulosin",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 4,
+      "alerts": [
+        "Reactive Triage:LETHAL",
+        "Valvulopathy:MODERATE",
+        "Verdict:FAIL",
+        "Nav1.5_proarrhythmic:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Pantoprazole",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Escitalopram",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "TI PARTIAL: narrow but manageable (LogP=3.8)"
+      ]
+    },
+    {
+      "name": "Prednisone",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Furosemide",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 4,
+      "alerts": [
+        "Reactive Triage:LETHAL",
+        "Reactive Triage:LETHAL",
+        "IDILI:HIGH",
+        "Verdict:FAIL"
+      ],
+      "xai_notes": [
+        "hERG ghost (no pharmacophore)"
+      ]
+    },
+    {
+      "name": "Propranolol",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "TI RESCUE: dose-managed (LogP=2.6, MW=259)"
+      ]
+    },
+    {
+      "name": "Diazepam",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Carbamazepine",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Naproxen",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Famotidine",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Doxycycline",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "TI RESCUE: dose-managed (LogP=-0.3, MW=444)"
+      ]
+    },
+    {
+      "name": "Azithromycin",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Sildenafil",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 3,
+      "alerts": [
+        "Reactive Triage:LETHAL",
+        "Verdict:FAIL",
+        "hERG_Physics:HIGH"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Pioglitazone",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 1,
+      "alerts": [
+        "BIA 10-2474-type:MODERATE"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Duloxetine",
+      "expected": "SAFE",
+      "engine": "FLAGGED",
+      "correct": false,
+      "n_alerts": 3,
+      "alerts": [
+        "IDILI:HIGH",
+        "Verdict:FAIL",
+        "IonCh:hERG"
+      ],
+      "xai_notes": []
+    },
+    {
+      "name": "Venlafaxine",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": [
+        "TI PARTIAL: narrow but manageable (LogP=3.0)"
+      ]
+    },
+    {
+      "name": "Ramipril",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Lamotrigine",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Valsartan",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    },
+    {
+      "name": "Atenolol",
+      "expected": "SAFE",
+      "engine": "SAFE",
+      "correct": true,
+      "n_alerts": 0,
+      "alerts": [],
+      "xai_notes": []
+    }
+  ],
+  "stats": {
+    "tp": 29,
+    "tn": 31,
+    "fp": 14,
+    "fn": 16,
+    "accuracy": 66.66666666666666,
+    "sensitivity": 64.44444444444444,
+    "specificity": 68.88888888888889
+  }
+}
